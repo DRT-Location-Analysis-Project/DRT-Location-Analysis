@@ -1,6 +1,6 @@
 # DRT-Location-Analysis
 [제2회 B.D.A. 채용 연계 데이터 분석 공모전](https://cerulean-cord-e77.notion.site/2-B-D-A-9c6d89fccccf4ccf8079e5570d854a19) 우수상 수상
-
+![BDA 공모전 로고](https://github.com/user-attachments/assets/83c3a32a-0ce5-456b-b3c4-85fa58e0e59a)
 
 
 # 프로젝트 소개
