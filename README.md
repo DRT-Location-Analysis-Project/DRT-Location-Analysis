@@ -75,8 +75,8 @@
 - **정류장별 이용량 분석** : 지도 시각화를 통해 두 노선의 중첩되지 않는 부분을 확인. 
 두 노선 모두 평일 출퇴근 시간에 이용량이 가장 많아 해당 시간을 기준으로 각 정류장별 이용량 분석.
 
+  <img src="https://github.com/user-attachments/assets/3362a702-c967-4a1a-bc91-a98724f4d2c5" width="400" height="400"/>
 
-  ![표5](https://github.com/user-attachments/assets/55386d14-be4a-4224-ab6e-09139a8c314f)
 
 - **DRT 도입 노선** :  강서01은 이용량이 많은 지하철역을 포함하고 있으며 강서02에 비해 이용량이 월등히 많아 그대로 운영.
   
