@@ -1,5 +1,7 @@
 # DRT-Location-Analysis
 [제2회 B.D.A. 채용 연계 데이터 분석 공모전](https://cerulean-cord-e77.notion.site/2-B-D-A-9c6d89fccccf4ccf8079e5570d854a19) 우수상 수상
+
+
 ![BDA 공모전 로고](https://github.com/user-attachments/assets/83c3a32a-0ce5-456b-b3c4-85fa58e0e59a)
 
 
@@ -13,9 +15,9 @@
 **멤버 구성: 피하영, 맹선영, 강민채, 배소현**
 
 ### 개발 툴
-* **언어**: 파이썬
+* **언어**: 파이썬 <img src="https://github.com/user-attachments/assets/3159747f-08b8-423a-bae3-776e5e233be1" width="35" height="35"/>
 
-* **개발환경**: 구글 코랩
+* **개발환경**: 구글 코랩 <img src="https://github.com/user-attachments/assets/d301ccf8-c112-4567-9fd2-31a32a6b0641" width="60" height="35"/>
 
 
 
@@ -67,16 +69,26 @@
 ### 강서01, 강서02 노선 대체형 DRT 분석
 - **두 노선의 평균 이용량 분석** : 평일 출퇴근과 공휴일의 예상치 못한 이용량 증감을 고려해 평일과 토요일, 일요일&공휴일로 나누어 분석.
 그 결과, 강서01의 평균 이용량이 강서02에 비해 많다는 것을 확인.
-    "표4 그림첨부.."
+
+  <img src="https://github.com/user-attachments/assets/4c3f61ed-2059-458a-a764-6feaa2a47b03" width="450" height="500"/>
 
 - **정류장별 이용량 분석** : 지도 시각화를 통해 두 노선의 중첩되지 않는 부분을 확인. 
 두 노선 모두 평일 출퇴근 시간에 이용량이 가장 많아 해당 시간을 기준으로 각 정류장별 이용량 분석.
-  "표5 그림 첨부.."
+
+
+  ![표5](https://github.com/user-attachments/assets/55386d14-be4a-4224-ab6e-09139a8c314f)
 
 - **DRT 도입 노선** :  강서01은 이용량이 많은 지하철역을 포함하고 있으며 강서02에 비해 이용량이 월등히 많아 그대로 운영.
-  강서02의 중첩되지 않은 노선의 경우, 1) 그림의 위쪽 노선은 강서01과 근접하여 강서01에 편입.
-                                  2) 그림의 아래쪽 노선은 이용량이 적어 DRT 도입 노선으로 대체.
-  "그림2(완성노선) 첨부.."
+  
+  강서02의 중첩되지 않은 노선의 경우,
+
+  1) 그림의 위쪽 노선은 강서01과 근접하여 강서01에 편입.
+
+
+  2) 그림의 아래쪽 노선은 이용량이 적어 DRT 도입 노선으로 대체.
+
+  <img src="https://github.com/user-attachments/assets/d3ad1294-f5f9-4765-ac23-f98ff045bbaf" width="300" height="300"/>
+
 
 
 ## 3. 실현 가능성 및 기대효과
@@ -90,12 +102,18 @@
 ### 기대효과
 **1. 대기 시간 감소**
 
+
+<img src="https://github.com/user-attachments/assets/4273bc5b-23e0-405a-909c-a1c008536f2d" width="600" height="300"/>
+
 A에서 B를 가는 경우
 
 기존 최대 대기 시간: 25분
 DRT 도입 시 최대 대기 시간:  DRT 10분 + 강서01 11분, 총 25분
 
 **2. 운송 원가 감소**
+
+<img src="https://github.com/user-attachments/assets/57ef5dd3-a422-4393-bdce-44fbdb92e6a0" width="600" height="250"/>
+
 
  DRT 이용시 강서02 2대를 1대의 DRT로 대체 가능. 
  
@@ -105,7 +123,7 @@ DRT 도입 시 최대 대기 시간:  DRT 10분 + 강서01 11분, 총 25분
 ## 4. 한계 및 보완점
   마을 버스 공공데이터가 누락 값이 많아 사용하지 못하는 데이터 다수. 특히 승하차 인원 데이터 분석 중, 요일별 이용량에서 일부 요일에 누락 값이 확인되어 이용량 분석어 어려움을 겪음
 
-### 5. 활용 공공데이터
+## 5. 활용 공공데이터
 * [서울시 버스노선별 정류장별 시간대별 승하차 인원 정보. (2024).](https://data.seoul.go.kr/dataList/OA-12913/S/1/datasetView.do)
 
 * [노선 정보. (2021).](https://t-data.seoul.go.kr/dataprovide/trafficdataviewfile.do?data_id=53)
