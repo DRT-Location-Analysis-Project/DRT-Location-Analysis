@@ -15,11 +15,13 @@
 **멤버 구성: 피하영, 맹선영, 강민채, 배소현**
 
 ### 개발 툴
+
 * **언어**: 파이썬 <img src="https://github.com/user-attachments/assets/3159747f-08b8-423a-bae3-776e5e233be1" width="35" height="35"/>
 
 * **개발환경**: 구글 코랩 <img src="https://github.com/user-attachments/assets/d301ccf8-c112-4567-9fd2-31a32a6b0641" width="60" height="35"/>
 
 
+* **협업도구**: [Notion](https://mixolydian-paint-5ff.notion.site/f1fb19c9c29e461e90ad2720f9a6d15d?pvs=4)
 
 
 # 프로젝트 설명
