@@ -87,7 +87,7 @@
 
   2) 그림의 아래쪽 노선은 이용량이 적어 DRT 도입 노선으로 대체.
 
-  <img src="https://github.com/user-attachments/assets/d3ad1294-f5f9-4765-ac23-f98ff045bbaf" width="300" height="300"/>
+  <img src="https://github.com/user-attachments/assets/a4f01521-9f61-4d1f-888e-81f328fb3d8a" width="300" height="300"/>
 
 
 
