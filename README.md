@@ -29,7 +29,8 @@
 ### 제안 배경 및 필요성
 - **마을버스의 재정난** : 코로나 팬데믹 이후 서울시 마을버스 이용수요가 28.6% 감소. 이에 따라 운행감축, 배차간격 증가가 일어나고 그 결과 이용수요가 감소하는 악순환 발생.
   
-    ![최근 5년간 마을버스 이용 감소 그래프](https://github.com/user-attachments/assets/a869b3f3-9805-4978-8570-06748cddaee0, )
+   <img src="https://github.com/user-attachments/assets/a869b3f3-9805-4978-8570-06748cddaee0" width="300" height="300"/>
+  
 ### 아이디어 핵심 내용
 - <b> DRT (Demand Responsive Transport)</b> : 수요응답형 이동서비스로, 대중교통의 노선을 미리 정하지 않고 승객의 수요에 따라 운행구간, 정류장 등을 정해 노선을 탄력적으로 운행하는 서비스. 
 
@@ -42,7 +43,7 @@
     2. 이 중 과부하를 막기 위해 신설된 노선은 DRT의 의도와 맞지 않기에 제외.
     3. 마지막으로 이용량이 타 노선쌍에 비해 감소하는 추세를 보이는 강서01과 강서02 버스가 drt 서비스 입지 분석에 적합한 노선이라고 판단. 따라서 두 노선으로 분석을 진행함.
  
-   <img src="https://github.com/user-attachments/assets/19c25b40-7297-497b-9284-dd03dba42eb2" width="300" height="300"/>
+   <img src="https://github.com/user-attachments/assets/19c25b40-7297-497b-9284-dd03dba42eb2" width="800" height="300"/>
 
 - <b>기대효과</b> : 중복되지 않는 노선의 이용량을 파악하여 정기 노선이 아닌 DRT 서비스로 대체한다면 승객들의 불편함을 줄임과 동시에 효율적인 마을버스 운행 기대.
 
