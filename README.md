@@ -4,7 +4,7 @@
 
 
 # 프로젝트 소개
-**서울시 내 교통 취약 지역의 마을 버스를 수요응답형(DRT)으로 변경하는 방식과 그 경제적 효과 분석**
+**공공데이터를 활용하여 서울시 내 교통 취약 지역의 마을 버스를 수요응답형(DRT)으로 변경하는 방식과 그 경제적 효과 분석**
 ### 프로젝트 기간: 2024/06/04~2024/07/27
 ### 멤버 구성: 피하영, 맹선영, 강민채, 배소현
 
@@ -19,6 +19,10 @@
 # 프로젝트 설명
 
 ## 1. 개요
+
+### 제안 배경 및 필요성
+- **마을버스의 재정난** : 코로나 팬데믹 이후 서울시 마을버스 이용수요가 28.6% 감소. 이에 따라 운행감축, 배차간격 증가가 일어나고 그 결과 이용수요가 감소하는 악순환 발생.
+    ![최근 5년간 마을버스 이용 감소 그래프](https://github.com/user-attachments/assets/fbf60e1b-66e6-41be-9b49-e6d7e3790869)
 ### 아이디어 핵심 내용
 - <b> DRT (Demand Responsive Transport)</b> : 수요응답형 이동서비스로, 대중교통의 노선을 미리 정하지 않고 승객의 수요에 따라 운행구간, 정류장 등을 정해 노선을 탄력적으로 운행하는 서비스. 
 
@@ -30,25 +34,7 @@
   ![노선 선정 방법](https://github.com/user-attachments/assets/bfbab059-bc9a-4318-86a6-8522ebf55145)
 
 - <b>기대효과</b> : 중복되지 않는 노선의 이용량을 파악하여 정기 노선이 아닌 DRT 서비스로 대체한다면 승객들의 불편함을 줄임과 동시에 효율적인 마을버스 운행 기대.
-  
-### 활용 공공데이터
-* [서울시 버스노선별 정류장별 시간대별 승하차 인원 정보. (2024).](https://data.seoul.go.kr/dataList/OA-12913/S/1/datasetView.do)
 
-* [노선 정보. (2021).](https://t-data.seoul.go.kr/dataprovide/trafficdataviewfile.do?data_id=53)
-
-* [배차 정보 (2021).](https://t-data.seoul.go.kr/dataprovide/trafficdataviewfile.do?data_id=72)
-
-* [서울시 버스정류소 위치정보. (2024).](https://data.seoul.go.kr/dataList/OA-15067/S/1/datasetView.do)
-
-* [일자별-시간대별-버스노선별-구간별-승객수(API). (2024).](https://t-data.seoul.go.kr/dataprovide/trafficdataviewopenapi.do?data_id=1025)
-
-  
-### 제안 배경 및 필요성
-- **마을버스의 재정난** : 코로나 팬데믹 이후 서울시 마을버스 이용수요가 28.6% 감소. 이에 따라 운행감축, 배차간격 증가가 일어나고 그 결과 이용수요가 감소하는 악순환 발생.
-    ![최근 5년간 마을버스 이용 감소 그래프](https://github.com/user-attachments/assets/fbf60e1b-66e6-41be-9b49-e6d7e3790869)
-- **유사한 노선 존재** : 마을버스의 노선 확인 결과, 유사한 노선을 운행하거나 동일한 일부 노선을 공유하는 노선이 있음을 확인.
-
-- **DRT 도입 노선** : 유사한 노선 쌍을 확인하였을 때, 낮은 이용률을 보이는 중첩되지 않은 부분에 DRT 서비스를 도입하여 효율성을 높이고자 함.
 
   
 ### 아이디어의 독창성
@@ -66,6 +52,17 @@
 
 ## 4. 한계 및 보완점
   마을 버스 공공데이터가 누락 값이 많아 사용하지 못하는 데이터 다수. 특히 승하차 인원 데이터 분석 중, 요일별 이용량에서 일부 요일에 누락 값이 확인되어 이용량 분석어 어려움을 겪음
+
+### 5. 활용 공공데이터
+* [서울시 버스노선별 정류장별 시간대별 승하차 인원 정보. (2024).](https://data.seoul.go.kr/dataList/OA-12913/S/1/datasetView.do)
+
+* [노선 정보. (2021).](https://t-data.seoul.go.kr/dataprovide/trafficdataviewfile.do?data_id=53)
+
+* [배차 정보 (2021).](https://t-data.seoul.go.kr/dataprovide/trafficdataviewfile.do?data_id=72)
+
+* [서울시 버스정류소 위치정보. (2024).](https://data.seoul.go.kr/dataList/OA-15067/S/1/datasetView.do)
+
+* [일자별-시간대별-버스노선별-구간별-승객수(API). (2024).](https://t-data.seoul.go.kr/dataprovide/trafficdataviewopenapi.do?data_id=1025)
 
 
 
