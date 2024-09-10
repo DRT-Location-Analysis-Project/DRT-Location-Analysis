@@ -29,6 +29,15 @@
 ## 1. 개요
 ### 아이디어 핵심 내용
 ### 활용 공공데이터
+[서울시 버스노선별 정류장별 시간대별 승하차 인원 정보. (2024).](https://data.seoul.go.kr/dataList/OA-12913/S/1/datasetView.do)
+
+[노선 정보. (2021).](https://t-data.seoul.go.kr/dataprovide/trafficdataviewfile.do?data_id=53)
+
+[배차 정보 (2021).](https://t-data.seoul.go.kr/dataprovide/trafficdataviewfile.do?data_id=72)
+
+[서울시 버스정류소 위치정보. (2024).](https://data.seoul.go.kr/dataList/OA-15067/S/1/datasetView.do)
+
+[일자별-시간대별-버스노선별-구간별-승객수(API). (2024).](https://t-data.seoul.go.kr/dataprovide/trafficdataviewopenapi.do?data_id=1025)
 ### 제안 배경 및 필요성
 ### 아이디어의 독창성
 
